@@ -21,22 +21,32 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-            <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ Clients Worldwide</small>
+              <h5>Academic</h5>
+              <small>
+                <ul>
+                  <li><span>&#8226;</span> 4th Year</li>
+                  <li><span>&#8226;</span> Computer Science</li>
+                  <li><span>&#8226;</span> Simon Fraser University</li>
+                </ul>
+              </small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>Interests</h5>
+              <small>
+                <ul>
+                  <li><span>&#8226;</span> Backend Developement </li>
+                  <li><span>&#8226;</span> Infrastructure / Devops </li>
+                  <li><span>&#8226;</span> Auto Stock Trading </li>
+                </ul>
+              </small>
             </article>
           </div>
           <p>
-            fsejlifse flsejflise jflseijfls;efijselfi jseflseijfl sefsje
+            Hello, my name is Sukkwon On, and I am a backend engineer, who has some of individual experience on frontend.
+            <br />
+            <br />
+            I am also interested in IaaC, Devops and Stock and Bitcoin auto trading.
           </p>
           <a href="#contact" className='btn btn-primary'>Lets' Talk</a>
 
