@@ -27,7 +27,7 @@ const data = [
   {
     id: 3,
     image: IMG1,
-    title: 'Vancouver Room Rent App (IOS)',
+    title: 'Room Rent App (IOS)',
     github: "https://github.com",
     stacks: ["Swift", "firebase"]
   },
