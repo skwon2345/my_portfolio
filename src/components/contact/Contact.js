@@ -4,8 +4,6 @@ import {MdOutlineEmail} from 'react-icons/md';
 import {BsInstagram} from 'react-icons/bs';
 import {BsMessenger} from 'react-icons/bs';
 import emailjs from '@emailjs/browser';
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
 
 const Contact = () => {
   const form = useRef();
@@ -20,11 +18,6 @@ const Contact = () => {
           console.log(error.text);
           alert("ERROR OCCURS!!!!! PLEASE TRY OTHER MESSAGE TOOLS!!!!!");
       });
-      <>
-        
-      </>
-      
-
       e.target.reset();
   };
   return (
@@ -59,9 +52,6 @@ const Contact = () => {
           <textarea name="message" rows="10" placeholder='Type Message here.' required></textarea>
           <button type="submit" className='btn btn-primary'>Send Message</button>
         </form>
-        <Popup trigger={<button> Trigger</button>} position="right center">
-          <div>Popup content here !!</div>
-        </Popup>
       </div>
     </section>
   )
