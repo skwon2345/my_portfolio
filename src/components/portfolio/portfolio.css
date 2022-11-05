@@ -23,7 +23,7 @@
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
 }
 
 .portfolio__item-cta {
@@ -31,6 +31,22 @@
     gap: 1rem;
     margin-bottom: 1rem;
     justify-content: center;
+}
+
+.portfolio__stack {
+    display: flex;
+    gap:0.5rem;
+}
+
+.portfolio__stack-icon {
+    margin-top: 0.2rem;
+    color: var(--color-primary);
+}
+
+.fe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
