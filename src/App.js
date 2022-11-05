@@ -6,12 +6,10 @@ const App = () => {
   return (
     <>
       <Header />
-      <Nav />
       <About />
       <Experience />
       <Services />
       <Portfolio />
-      <Testimonials />
       <Contact />
       <Footer />
     </>
