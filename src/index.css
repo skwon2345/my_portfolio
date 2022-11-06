@@ -12,10 +12,10 @@
 
 /* css variables */
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #0b1720;
+    --color-bg-variant: #1f3f91;
+    --color-primary: #3c9dde;
+    --color-primary-variant: rgba(9, 39, 157, 0.766);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 

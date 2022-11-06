@@ -20,10 +20,10 @@
     transition: var(--transition);
 }
 
-.contact__option:hover {
+/* .contact__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
-}
+} */
 
 .contact__option-icon {
     font-size: 1.5rem;
@@ -49,7 +49,7 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 3px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
 }
