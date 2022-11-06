@@ -12,11 +12,11 @@
     transition: var(--transition);
 }
 
-.service:hover {
+/* .service:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
-}
+} */
 
 .service__head {
     background: var(--color-primary);
@@ -47,6 +47,22 @@
     margin-top: 6px;
 }
 
+.service__detail {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.service__detail-role {
+    /* background: var(--color-bg-variant); */
+    /* border-radius: 2rem; */
+    padding: 1rem;
+    display:flex;
+    text-align: center;
+    max-height: 5.6rem;
+    /* font-size: 1.1rem; */
+}
+
 @media screen and (max-width: 1024px) {
     .services__container {
         grid-template-columns: 1fr 1fr;
@@ -62,5 +78,9 @@
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+    .service__detail-role {
+        margin-top: -0.8rem;
+        text-align:left;
     }
 }
