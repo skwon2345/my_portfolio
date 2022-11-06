@@ -1,48 +1,46 @@
 import React from 'react'
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
+import IMG1 from '../../assets/portfolio1.png';
+import IMG2 from '../../assets/portfolio2.png';
+import IMG3 from '../../assets/portfolio3.png';
+import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
-import {BsPatchCheckFill} from 'react-icons/bs';
 import {HiCheckCircle} from 'react-icons/hi';
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Auto Trading',
-    github: "https://github.com",
+    title: 'Bitcoin Auto Trading',
+    github: "https://github.com/skwon2345/bitcoin_auto_trader",
     stacks: ["Python", "Redis"]
   },
   {
     id: 2,
-    image: IMG1,
+    image: IMG2,
     title: 'Stock Reporter',
-    github: "https://github.com",
+    github: "https://github.com/skwon2345/stock_reporter",
     stacks: ["Python", "mongodb"]
   },
   {
     id: 3,
-    image: IMG1,
+    image: IMG3,
     title: 'Room Rent App (IOS)',
-    github: "https://github.com",
+    github: "https://github.com/skwon2345/vancouver_room_rent_app",
     stacks: ["Swift", "firebase"]
   },
   {
     id: 4,
-    image: IMG1,
-    title: 'Starcraft Mocking Game',
-    github: "https://github.com",
+    image: IMG4,
+    title: 'Starcraft Mocking',
+    github: "https://github.com/skwon2345/starcraft_demo",
     stacks: ["Java"]
   },
   {
     id: 5,
-    image: IMG1,
+    image: IMG5,
     title: 'RPG Game',
-    github: "https://github.com",
+    github: "https://github.com/skwon2345/rpg",
     stacks: ["C++"]
   }
 
@@ -77,7 +75,7 @@ const Portfolio = () => {
                 </div>
                 
                 <div className='portfolio__item-cta'>
-                  <a href={github} className='btn btn-primary'>Github</a>
+                  <a href={github} className='btn btn-primary' target="_blank">Github</a>
                 </div>
               </article>
             )
