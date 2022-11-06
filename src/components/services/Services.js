@@ -8,6 +8,7 @@ const Services = () => {
     {
       id: "1",
       company:"HITS", 
+      role: "Software Engineer",
       location:"Seoul, South Korea", 
       date: "2021 Jun - 2021 Nov", 
       details: [
@@ -20,6 +21,7 @@ const Services = () => {
     {
       id: "2",
       company:"Alcumus", 
+      role: "Devops Engineer",
       location:"Toronto, Canada", 
       date: "2022 May - 2022 Sep", 
       details: [
@@ -39,13 +41,21 @@ const Services = () => {
 
       <div className='container services__container'>
         {
-          data.map(({id, company, location, date, details}) => {
+          data.map(({id, company, role, location, date, details}) => {
             return (
               <article key={id} className='service'>
                 <div className='service__head'>
                   <h3>{company}</h3>
-                  <h4>{location}</h4>
-                  <small className='text-light'>{date}</small>
+                  <div className='service__detail'>
+                    <div className='service__detail-role'>
+                      <h4>{role}</h4>
+                    </div>
+                    <div className='service__detail-info'> 
+                      <h4>{location}</h4>
+                      <small className='text-light'>{date}</small>
+                    </div>
+
+                  </div>
                 </div>
                 <ul className='service__list'>
                   {
