@@ -7,19 +7,6 @@ const Services = () => {
   const data = [
     {
       id: "1",
-      company:"HITS", 
-      role: "Software Engineer",
-      location:"Seoul, South Korea", 
-      date: "2021 Jun - 2021 Nov", 
-      details: [
-        "Built CI/CD Pipeline using GitHub Action(CI) and AWS Code Deploy(CD) to improve work efficiency.",
-        "Implemented backend server using Django.",
-        "Created employers' AWS IAM User management tool with Terraform (IaC) to manage new employers access right on AWS easily.",
-        "Developed API test code and customize test commands by overriding Django's BaseCommand class to test the latest code automatically to keep code bug-free."
-      ]
-    },
-    {
-      id: "2",
       company:"Alcumus", 
       role: "Devops Engineer",
       location:"Toronto, Canada", 
@@ -30,8 +17,19 @@ const Services = () => {
         "Create and manage Azure Devops Pipeline and Variable Groups.",
         "Debug Helm chart for company's private K8S cluster."
       ]
-  
-      
+    },
+    {
+      id: "2",
+      company:"HITS", 
+      role: "Software Engineer",
+      location:"Seoul, South Korea", 
+      date: "2021 Jun - 2021 Nov", 
+      details: [
+        "Built CI/CD Pipeline using GitHub Action(CI) and AWS Code Deploy(CD) to improve work efficiency.",
+        "Implemented backend server using Django.",
+        "Created employers' AWS IAM User management tool with Terraform (IaC) to manage new employers access right on AWS easily.",
+        "Developed API test code and customize test commands by overriding Django's BaseCommand class to test the latest code automatically to keep code bug-free."
+      ]
     }
   ];
   return (
